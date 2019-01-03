@@ -7,43 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E276C7F621DE6A8D00A25059 /* PMPrometheusClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276C7EC21DE6A8D00A25059 /* PMPrometheusClient.framework */; };
-		E276C7FB21DE6A8D00A25059 /* PMPrometheusClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E276C7FA21DE6A8D00A25059 /* PMPrometheusClientTests.swift */; };
-		E276C7FD21DE6A8D00A25059 /* PMPrometheusClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E276C7EF21DE6A8D00A25059 /* PMPrometheusClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E276C8D621DE6D9800A25059 /* tvOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276C8CD21DE6D9700A25059 /* tvOS_Framework.framework */; };
+		E276C8FF21DE6DAF00A25059 /* iOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276C8F621DE6DAF00A25059 /* iOS_Framework.framework */; };
+		E276C93D21DE734100A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C93221DE734100A25059 /* Info.plist */; };
+		E276C94221DE735C00A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C92E21DE734100A25059 /* Info.plist */; };
+		E276C94521DE736C00A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C93621DE734100A25059 /* Info.plist */; };
+		E276C94721DE737500A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C93A21DE734100A25059 /* Info.plist */; };
+		E276C94F21DE73F400A25059 /* macOS_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E276C94B21DE73F400A25059 /* macOS_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E276C95221DE73F900A25059 /* iOS_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E276C94A21DE73F400A25059 /* iOS_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E276C95321DE740000A25059 /* tvOS_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E276C94C21DE73F400A25059 /* tvOS_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E276C95421DE740600A25059 /* watchOS_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E276C94D21DE73F400A25059 /* watchOS_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E276C97121DE759F00A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C96621DE754700A25059 /* Info.plist */; };
+		E276C97221DE75A300A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C96421DE754700A25059 /* Info.plist */; };
+		E276C97321DE75AA00A25059 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E276C96221DE754700A25059 /* Info.plist */; };
+		E276C97721DE765100A25059 /* macOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E276C91221DE6DC000A25059 /* macOS_Framework.framework */; };
+		E276C97821DE792300A25059 /* macOS_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E276C96C21DE756000A25059 /* macOS_FrameworkTests.swift */; };
+		E276C97921DE793500A25059 /* iOS_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E276C96B21DE756000A25059 /* iOS_FrameworkTests.swift */; };
+		E276C97A21DE794700A25059 /* tvOS_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E276C96D21DE756000A25059 /* tvOS_FrameworkTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E276C7F721DE6A8D00A25059 /* PBXContainerItemProxy */ = {
+		E276C8D721DE6D9800A25059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E276C7E321DE6A8D00A25059 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E276C7EB21DE6A8D00A25059;
-			remoteInfo = PMPrometheusClient;
+			remoteGlobalIDString = E276C8CC21DE6D9700A25059;
+			remoteInfo = "tvOS Framework";
+		};
+		E276C90021DE6DAF00A25059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E276C7E321DE6A8D00A25059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E276C8F521DE6DAF00A25059;
+			remoteInfo = "iOS Framework";
+		};
+		E276C91C21DE6DC000A25059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E276C7E321DE6A8D00A25059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E276C91121DE6DC000A25059;
+			remoteInfo = "macOS Framework";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E276C7EC21DE6A8D00A25059 /* PMPrometheusClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMPrometheusClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E276C7EF21DE6A8D00A25059 /* PMPrometheusClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMPrometheusClient.h; sourceTree = "<group>"; };
-		E276C7F021DE6A8D00A25059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E276C7F521DE6A8D00A25059 /* PMPrometheusClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMPrometheusClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E276C7FA21DE6A8D00A25059 /* PMPrometheusClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPrometheusClientTests.swift; sourceTree = "<group>"; };
-		E276C7FC21DE6A8D00A25059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C8CD21DE6D9700A25059 /* tvOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tvOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C8D521DE6D9800A25059 /* tvOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C8E921DE6DA200A25059 /* watchOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = watchOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C8F621DE6DAF00A25059 /* iOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C8FE21DE6DAF00A25059 /* iOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C91221DE6DC000A25059 /* macOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C91A21DE6DC000A25059 /* macOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E276C92E21DE734100A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C93221DE734100A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C93621DE734100A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C93A21DE734100A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C94A21DE73F400A25059 /* iOS_Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_Framework.h; sourceTree = "<group>"; };
+		E276C94B21DE73F400A25059 /* macOS_Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macOS_Framework.h; sourceTree = "<group>"; };
+		E276C94C21DE73F400A25059 /* tvOS_Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tvOS_Framework.h; sourceTree = "<group>"; };
+		E276C94D21DE73F400A25059 /* watchOS_Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watchOS_Framework.h; sourceTree = "<group>"; };
+		E276C96221DE754700A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C96421DE754700A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C96621DE754700A25059 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E276C96B21DE756000A25059 /* iOS_FrameworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS_FrameworkTests.swift; sourceTree = "<group>"; };
+		E276C96C21DE756000A25059 /* macOS_FrameworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS_FrameworkTests.swift; sourceTree = "<group>"; };
+		E276C96D21DE756000A25059 /* tvOS_FrameworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tvOS_FrameworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E276C7E821DE6A8D00A25059 /* Frameworks */ = {
+		E276C8C921DE6D9700A25059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E276C7F221DE6A8D00A25059 /* Frameworks */ = {
+		E276C8D221DE6D9800A25059 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E276C7F621DE6A8D00A25059 /* PMPrometheusClient.framework in Frameworks */,
+				E276C8D621DE6D9800A25059 /* tvOS_Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8E521DE6DA200A25059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8F221DE6DAF00A25059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8FB21DE6DAF00A25059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C8FF21DE6DAF00A25059 /* iOS_Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C90E21DE6DC000A25059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C91721DE6DC000A25059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C97721DE765100A25059 /* macOS_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +133,9 @@
 		E276C7E221DE6A8D00A25059 = {
 			isa = PBXGroup;
 			children = (
-				E276C7EE21DE6A8D00A25059 /* PMPrometheusClient */,
-				E276C7F921DE6A8D00A25059 /* PMPrometheusClientTests */,
+				E276C92C21DE734100A25059 /* Assets */,
+				E276C94921DE73F400A25059 /* Sources */,
+				E276C95521DE741C00A25059 /* Tests */,
 				E276C7ED21DE6A8D00A25059 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,78 +143,286 @@
 		E276C7ED21DE6A8D00A25059 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E276C7EC21DE6A8D00A25059 /* PMPrometheusClient.framework */,
-				E276C7F521DE6A8D00A25059 /* PMPrometheusClientTests.xctest */,
+				E276C8CD21DE6D9700A25059 /* tvOS_Framework.framework */,
+				E276C8D521DE6D9800A25059 /* tvOS FrameworkTests.xctest */,
+				E276C8E921DE6DA200A25059 /* watchOS_Framework.framework */,
+				E276C8F621DE6DAF00A25059 /* iOS_Framework.framework */,
+				E276C8FE21DE6DAF00A25059 /* iOS FrameworkTests.xctest */,
+				E276C91221DE6DC000A25059 /* macOS_Framework.framework */,
+				E276C91A21DE6DC000A25059 /* macOS FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E276C7EE21DE6A8D00A25059 /* PMPrometheusClient */ = {
+		E276C92C21DE734100A25059 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				E276C7EF21DE6A8D00A25059 /* PMPrometheusClient.h */,
-				E276C7F021DE6A8D00A25059 /* Info.plist */,
+				E276C93121DE734100A25059 /* macOS Framework */,
+				E276C92D21DE734100A25059 /* iOS Framework */,
+				E276C93921DE734100A25059 /* watchOS Framework */,
+				E276C93521DE734100A25059 /* tvOS Framework */,
 			);
-			path = PMPrometheusClient;
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		E276C7F921DE6A8D00A25059 /* PMPrometheusClientTests */ = {
+		E276C92D21DE734100A25059 /* iOS Framework */ = {
 			isa = PBXGroup;
 			children = (
-				E276C7FA21DE6A8D00A25059 /* PMPrometheusClientTests.swift */,
-				E276C7FC21DE6A8D00A25059 /* Info.plist */,
+				E276C92E21DE734100A25059 /* Info.plist */,
 			);
-			path = PMPrometheusClientTests;
+			path = "iOS Framework";
+			sourceTree = "<group>";
+		};
+		E276C93121DE734100A25059 /* macOS Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E276C93221DE734100A25059 /* Info.plist */,
+			);
+			path = "macOS Framework";
+			sourceTree = "<group>";
+		};
+		E276C93521DE734100A25059 /* tvOS Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E276C93621DE734100A25059 /* Info.plist */,
+			);
+			path = "tvOS Framework";
+			sourceTree = "<group>";
+		};
+		E276C93921DE734100A25059 /* watchOS Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E276C93A21DE734100A25059 /* Info.plist */,
+			);
+			path = "watchOS Framework";
+			sourceTree = "<group>";
+		};
+		E276C94921DE73F400A25059 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E276C94B21DE73F400A25059 /* macOS_Framework.h */,
+				E276C94A21DE73F400A25059 /* iOS_Framework.h */,
+				E276C94D21DE73F400A25059 /* watchOS_Framework.h */,
+				E276C94C21DE73F400A25059 /* tvOS_Framework.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E276C95521DE741C00A25059 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E276C96A21DE756000A25059 /* Sources */,
+				E276C96021DE754700A25059 /* Assets */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		E276C96021DE754700A25059 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E276C96321DE754700A25059 /* macOS FrameworkTests */,
+				E276C96121DE754700A25059 /* iOS FrameworkTests */,
+				E276C96521DE754700A25059 /* tvOS FrameworkTests */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E276C96121DE754700A25059 /* iOS FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E276C96221DE754700A25059 /* Info.plist */,
+			);
+			path = "iOS FrameworkTests";
+			sourceTree = "<group>";
+		};
+		E276C96321DE754700A25059 /* macOS FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E276C96421DE754700A25059 /* Info.plist */,
+			);
+			path = "macOS FrameworkTests";
+			sourceTree = "<group>";
+		};
+		E276C96521DE754700A25059 /* tvOS FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E276C96621DE754700A25059 /* Info.plist */,
+			);
+			path = "tvOS FrameworkTests";
+			sourceTree = "<group>";
+		};
+		E276C96A21DE756000A25059 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E276C96C21DE756000A25059 /* macOS_FrameworkTests.swift */,
+				E276C96B21DE756000A25059 /* iOS_FrameworkTests.swift */,
+				E276C96D21DE756000A25059 /* tvOS_FrameworkTests.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E276C7E921DE6A8D00A25059 /* Headers */ = {
+		E276C8CA21DE6D9700A25059 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E276C7FD21DE6A8D00A25059 /* PMPrometheusClient.h in Headers */,
+				E276C95321DE740000A25059 /* tvOS_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8E621DE6DA200A25059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C95421DE740600A25059 /* watchOS_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8F321DE6DAF00A25059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C95221DE73F900A25059 /* iOS_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C90F21DE6DC000A25059 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C94F21DE73F400A25059 /* macOS_Framework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E276C7EB21DE6A8D00A25059 /* PMPrometheusClient */ = {
+		E276C8CC21DE6D9700A25059 /* tvOS Framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E276C80021DE6A8D00A25059 /* Build configuration list for PBXNativeTarget "PMPrometheusClient" */;
+			buildConfigurationList = E276C8DE21DE6D9800A25059 /* Build configuration list for PBXNativeTarget "tvOS Framework" */;
 			buildPhases = (
-				E276C7E721DE6A8D00A25059 /* Sources */,
-				E276C7E821DE6A8D00A25059 /* Frameworks */,
-				E276C7E921DE6A8D00A25059 /* Headers */,
-				E276C7EA21DE6A8D00A25059 /* Resources */,
+				E276C8C821DE6D9700A25059 /* Sources */,
+				E276C8C921DE6D9700A25059 /* Frameworks */,
+				E276C8CA21DE6D9700A25059 /* Headers */,
+				E276C8CB21DE6D9700A25059 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PMPrometheusClient;
-			productName = PMPrometheusClient;
-			productReference = E276C7EC21DE6A8D00A25059 /* PMPrometheusClient.framework */;
+			name = "tvOS Framework";
+			productName = "tvOS Framework";
+			productReference = E276C8CD21DE6D9700A25059 /* tvOS_Framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E276C7F421DE6A8D00A25059 /* PMPrometheusClientTests */ = {
+		E276C8D421DE6D9800A25059 /* tvOS FrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E276C80321DE6A8D00A25059 /* Build configuration list for PBXNativeTarget "PMPrometheusClientTests" */;
+			buildConfigurationList = E276C8E121DE6D9800A25059 /* Build configuration list for PBXNativeTarget "tvOS FrameworkTests" */;
 			buildPhases = (
-				E276C7F121DE6A8D00A25059 /* Sources */,
-				E276C7F221DE6A8D00A25059 /* Frameworks */,
-				E276C7F321DE6A8D00A25059 /* Resources */,
+				E276C8D121DE6D9800A25059 /* Sources */,
+				E276C8D221DE6D9800A25059 /* Frameworks */,
+				E276C8D321DE6D9800A25059 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E276C7F821DE6A8D00A25059 /* PBXTargetDependency */,
+				E276C8D821DE6D9800A25059 /* PBXTargetDependency */,
 			);
-			name = PMPrometheusClientTests;
-			productName = PMPrometheusClientTests;
-			productReference = E276C7F521DE6A8D00A25059 /* PMPrometheusClientTests.xctest */;
+			name = "tvOS FrameworkTests";
+			productName = "tvOS FrameworkTests";
+			productReference = E276C8D521DE6D9800A25059 /* tvOS FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E276C8E821DE6DA200A25059 /* watchOS Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E276C8EE21DE6DA300A25059 /* Build configuration list for PBXNativeTarget "watchOS Framework" */;
+			buildPhases = (
+				E276C8E421DE6DA200A25059 /* Sources */,
+				E276C8E521DE6DA200A25059 /* Frameworks */,
+				E276C8E621DE6DA200A25059 /* Headers */,
+				E276C8E721DE6DA200A25059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Framework";
+			productName = "watchOS Framework";
+			productReference = E276C8E921DE6DA200A25059 /* watchOS_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E276C8F521DE6DAF00A25059 /* iOS Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E276C90721DE6DAF00A25059 /* Build configuration list for PBXNativeTarget "iOS Framework" */;
+			buildPhases = (
+				E276C8F121DE6DAF00A25059 /* Sources */,
+				E276C8F221DE6DAF00A25059 /* Frameworks */,
+				E276C8F321DE6DAF00A25059 /* Headers */,
+				E276C8F421DE6DAF00A25059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Framework";
+			productName = "iOS Framework";
+			productReference = E276C8F621DE6DAF00A25059 /* iOS_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E276C8FD21DE6DAF00A25059 /* iOS FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E276C90A21DE6DAF00A25059 /* Build configuration list for PBXNativeTarget "iOS FrameworkTests" */;
+			buildPhases = (
+				E276C8FA21DE6DAF00A25059 /* Sources */,
+				E276C8FB21DE6DAF00A25059 /* Frameworks */,
+				E276C8FC21DE6DAF00A25059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E276C90121DE6DAF00A25059 /* PBXTargetDependency */,
+			);
+			name = "iOS FrameworkTests";
+			productName = "iOS FrameworkTests";
+			productReference = E276C8FE21DE6DAF00A25059 /* iOS FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E276C91121DE6DC000A25059 /* macOS Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E276C92321DE6DC000A25059 /* Build configuration list for PBXNativeTarget "macOS Framework" */;
+			buildPhases = (
+				E276C90D21DE6DC000A25059 /* Sources */,
+				E276C90E21DE6DC000A25059 /* Frameworks */,
+				E276C90F21DE6DC000A25059 /* Headers */,
+				E276C91021DE6DC000A25059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS Framework";
+			productName = "macOS Framework";
+			productReference = E276C91221DE6DC000A25059 /* macOS_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E276C91921DE6DC000A25059 /* macOS FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E276C92621DE6DC000A25059 /* Build configuration list for PBXNativeTarget "macOS FrameworkTests" */;
+			buildPhases = (
+				E276C91621DE6DC000A25059 /* Sources */,
+				E276C91721DE6DC000A25059 /* Frameworks */,
+				E276C91821DE6DC000A25059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E276C91D21DE6DC000A25059 /* PBXTargetDependency */,
+			);
+			name = "macOS FrameworkTests";
+			productName = "macOS FrameworkTests";
+			productReference = E276C91A21DE6DC000A25059 /* macOS FrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -146,10 +435,25 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Idan Boberman";
 				TargetAttributes = {
-					E276C7EB21DE6A8D00A25059 = {
+					E276C8CC21DE6D9700A25059 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					E276C7F421DE6A8D00A25059 = {
+					E276C8D421DE6D9800A25059 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E276C8E821DE6DA200A25059 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E276C8F521DE6DAF00A25059 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E276C8FD21DE6DAF00A25059 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E276C91121DE6DC000A25059 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E276C91921DE6DC000A25059 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -166,52 +470,146 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E276C7EB21DE6A8D00A25059 /* PMPrometheusClient */,
-				E276C7F421DE6A8D00A25059 /* PMPrometheusClientTests */,
+				E276C91121DE6DC000A25059 /* macOS Framework */,
+				E276C91921DE6DC000A25059 /* macOS FrameworkTests */,
+				E276C8F521DE6DAF00A25059 /* iOS Framework */,
+				E276C8FD21DE6DAF00A25059 /* iOS FrameworkTests */,
+				E276C8E821DE6DA200A25059 /* watchOS Framework */,
+				E276C8CC21DE6D9700A25059 /* tvOS Framework */,
+				E276C8D421DE6D9800A25059 /* tvOS FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E276C7EA21DE6A8D00A25059 /* Resources */ = {
+		E276C8CB21DE6D9700A25059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E276C94521DE736C00A25059 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E276C7F321DE6A8D00A25059 /* Resources */ = {
+		E276C8D321DE6D9800A25059 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E276C97121DE759F00A25059 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8E721DE6DA200A25059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C94721DE737500A25059 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8F421DE6DAF00A25059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C94221DE735C00A25059 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8FC21DE6DAF00A25059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C97321DE75AA00A25059 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C91021DE6DC000A25059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C93D21DE734100A25059 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C91821DE6DC000A25059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C97221DE75A300A25059 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E276C7E721DE6A8D00A25059 /* Sources */ = {
+		E276C8C821DE6D9700A25059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E276C7F121DE6A8D00A25059 /* Sources */ = {
+		E276C8D121DE6D9800A25059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E276C7FB21DE6A8D00A25059 /* PMPrometheusClientTests.swift in Sources */,
+				E276C97A21DE794700A25059 /* tvOS_FrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8E421DE6DA200A25059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8F121DE6DAF00A25059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C8FA21DE6DAF00A25059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C97921DE793500A25059 /* iOS_FrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C90D21DE6DC000A25059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E276C91621DE6DC000A25059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E276C97821DE792300A25059 /* macOS_FrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E276C7F821DE6A8D00A25059 /* PBXTargetDependency */ = {
+		E276C8D821DE6D9800A25059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E276C7EB21DE6A8D00A25059 /* PMPrometheusClient */;
-			targetProxy = E276C7F721DE6A8D00A25059 /* PBXContainerItemProxy */;
+			target = E276C8CC21DE6D9700A25059 /* tvOS Framework */;
+			targetProxy = E276C8D721DE6D9800A25059 /* PBXContainerItemProxy */;
+		};
+		E276C90121DE6DAF00A25059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E276C8F521DE6DAF00A25059 /* iOS Framework */;
+			targetProxy = E276C90021DE6DAF00A25059 /* PBXContainerItemProxy */;
+		};
+		E276C91D21DE6DC000A25059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E276C91121DE6DC000A25059 /* macOS Framework */;
+			targetProxy = E276C91C21DE6DC000A25059 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -335,7 +733,258 @@
 			};
 			name = Release;
 		};
-		E276C80121DE6A8D00A25059 /* Debug */ = {
+		E276C8DF21DE6D9800A25059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/tvOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.tvOS-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E276C8E021DE6D9800A25059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/tvOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.tvOS-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E276C8E221DE6D9800A25059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				INFOPLIST_FILE = "tvOS FrameworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.tvOS-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		E276C8E321DE6D9800A25059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				INFOPLIST_FILE = "tvOS FrameworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.tvOS-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E276C8EF21DE6DA300A25059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/watchOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.watchOS-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		E276C8F021DE6DA300A25059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/watchOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.watchOS-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		E276C90821DE6DAF00A25059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/iOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.iOS-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E276C90921DE6DAF00A25059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/iOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.iOS-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E276C90B21DE6DAF00A25059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				INFOPLIST_FILE = "iOS FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.iOS-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E276C90C21DE6DAF00A25059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P897V942J;
+				INFOPLIST_FILE = "iOS FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.iOS-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E276C92421DE6DC000A25059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -347,21 +996,21 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = PMPrometheusClient/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/macOS Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.PMPrometheusClient";
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.macOS-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		E276C80221DE6A8D00A25059 /* Release */ = {
+		E276C92521DE6DC000A25059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -373,51 +1022,51 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = PMPrometheusClient/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Assets/macOS Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.PMPrometheusClient";
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.macOS-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		E276C80421DE6A8D00A25059 /* Debug */ = {
+		E276C92721DE6DC000A25059 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9P897V942J;
-				INFOPLIST_FILE = PMPrometheusClientTests/Info.plist;
+				INFOPLIST_FILE = "macOS FrameworkTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.PMPrometheusClientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.macOS-FrameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		E276C80521DE6A8D00A25059 /* Release */ = {
+		E276C92821DE6DC000A25059 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9P897V942J;
-				INFOPLIST_FILE = PMPrometheusClientTests/Info.plist;
+				INFOPLIST_FILE = "macOS FrameworkTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.PMPrometheusClientTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "perfecto-mobile.macOS-FrameworkTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -435,20 +1084,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E276C80021DE6A8D00A25059 /* Build configuration list for PBXNativeTarget "PMPrometheusClient" */ = {
+		E276C8DE21DE6D9800A25059 /* Build configuration list for PBXNativeTarget "tvOS Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E276C80121DE6A8D00A25059 /* Debug */,
-				E276C80221DE6A8D00A25059 /* Release */,
+				E276C8DF21DE6D9800A25059 /* Debug */,
+				E276C8E021DE6D9800A25059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E276C80321DE6A8D00A25059 /* Build configuration list for PBXNativeTarget "PMPrometheusClientTests" */ = {
+		E276C8E121DE6D9800A25059 /* Build configuration list for PBXNativeTarget "tvOS FrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E276C80421DE6A8D00A25059 /* Debug */,
-				E276C80521DE6A8D00A25059 /* Release */,
+				E276C8E221DE6D9800A25059 /* Debug */,
+				E276C8E321DE6D9800A25059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E276C8EE21DE6DA300A25059 /* Build configuration list for PBXNativeTarget "watchOS Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E276C8EF21DE6DA300A25059 /* Debug */,
+				E276C8F021DE6DA300A25059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E276C90721DE6DAF00A25059 /* Build configuration list for PBXNativeTarget "iOS Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E276C90821DE6DAF00A25059 /* Debug */,
+				E276C90921DE6DAF00A25059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E276C90A21DE6DAF00A25059 /* Build configuration list for PBXNativeTarget "iOS FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E276C90B21DE6DAF00A25059 /* Debug */,
+				E276C90C21DE6DAF00A25059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E276C92321DE6DC000A25059 /* Build configuration list for PBXNativeTarget "macOS Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E276C92421DE6DC000A25059 /* Debug */,
+				E276C92521DE6DC000A25059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E276C92621DE6DC000A25059 /* Build configuration list for PBXNativeTarget "macOS FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E276C92721DE6DC000A25059 /* Debug */,
+				E276C92821DE6DC000A25059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,15 +1,15 @@
 //
-//  PMPrometheusClientTests.swift
-//  PMPrometheusClientTests
+//  tvOS_FrameworkTests.swift
+//  tvOS FrameworkTests
 //
 //  Created by Idan Boberman on 03/01/2019.
 //  Copyright © 2019 Idan Boberman. All rights reserved.
 //
 
 import XCTest
-@testable import PMPrometheusClient
+@testable import tvOS_Framework
 
-class PMPrometheusClientTests: XCTestCase {
+class tvOS_FrameworkTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

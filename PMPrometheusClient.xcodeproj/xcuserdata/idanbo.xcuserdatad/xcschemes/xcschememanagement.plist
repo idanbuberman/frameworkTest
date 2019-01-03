@@ -4,10 +4,63 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PMPrometheusClient.xcscheme</key>
+		<key>iOS Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>macOS Framework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>tvOS Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>watchOS Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E276C8CC21DE6D9700A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E276C8D421DE6D9800A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E276C8E821DE6DA200A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E276C8F521DE6DAF00A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E276C8FD21DE6DAF00A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E276C91121DE6DC000A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E276C91921DE6DC000A25059</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
